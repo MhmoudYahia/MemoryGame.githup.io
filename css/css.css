@@ -1,0 +1,139 @@
+body {
+  background-color: cadetblue;
+}
+
+.startGame {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  position: absolute;
+  top: 0;
+  opacity: 0.9;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.startGame .start {
+  color: white;
+  padding: 10px 25px;
+  background-color: blue;
+  font-size: xx-large;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.startGame span:hover {
+  box-shadow: 0 0 10px 5px;
+}
+.startGame .popup {
+  display: none;
+  background-color: blanchedalmond;
+  padding: 15px;
+  text-align: center;
+  width: 390px;
+  border-radius: 15px;
+}
+.startGame .popup input[type="text"] {
+  width: 80%;
+  margin-bottom: 15px;
+  outline: 0;
+  padding: 4px;
+  padding-left: 4px;
+  padding-left: 12px;
+  caret-color: blue;
+}
+.startGame .popup input[type="text"]:hover {
+  box-shadow: 0 0 7px 3px #5757ff;
+}
+.startGame .popup p {
+  font-weight: bold;
+  font-size: x-large;
+  color: blue;
+}
+.popup button {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 15px;
+  font-weight: bold;
+  font-size: larger;
+  color: bisque;
+  background-color: blue;
+  border: 0;
+  border-radius: 8px;
+}
+.popup button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 7px 5px #7272ff;
+}
+.MemoryGame {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.headData {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 3px solid #4e4c98;
+  color: wheat;
+  font-weight: bold;
+}
+.images {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.images .img {
+  flex-basis: 18%;
+  transform-style: preserve-3d;
+  transform-origin: right center;
+  margin-bottom: 15px;
+  border: 3px solid #4e4c98;
+  transition: 0.5s;
+  transform: translateX(-100%) rotateY(-180deg);
+  cursor: pointer;
+}
+.images img {
+  max-width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(-180deg);
+  cursor: pointer;
+}
+/* .img:hover {
+  transform: translateX(-100%) rotateY(-180deg);
+} */
+.images i {
+  width: 108px;
+  height: 72px;
+  background-color: black;
+  color: white;
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+  font-weight: bold;
+}
+.MemoryGame button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px;
+  background-color: cornflowerblue;
+  outline: 0;
+  border: 0;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #000000bd;
+  cursor: pointer;
+}
+.MemoryGame button:hover {
+  box-shadow: 0 0 5px 5px aquamarine;
+}
+
+/*  */

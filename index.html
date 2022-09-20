@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalized.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="startGame">
+      <span class="start">Start</span>
+      <div class="popup">
+        <p>Enter Your Name</p>
+        <input
+          type="text"
+          placeholder="Type Your Name Here (Mahmoud is default)"
+        />
+        <button>Ok</button>
+      </div>
+    </div>
+
+    <div class="MemoryGame">
+      <div class="headData">
+        <div>Hello: <span>Mahmod</span></div>
+        <div>Wrong Tries: <span>00</span></div>
+      </div>
+      <div class="images">
+        <div class="img">
+          <img src="Images/shuffle-01.jpg" alt="sh1" data-name="sh1" />
+          <i class="fa-duotone fa-question" data-name="sh1"></i>
+        </div>
+
+        <div class="img">
+          <img src="Images/shuffle-02.jpg" alt="sh2" data-name="sh2" />
+          <i class="fa-duotone fa-question" data-name="sh2"></i>
+        </div>
+
+        <div class="img">
+          <img src="Images/shuffle-03.jpg" alt="sh3" data-name="sh3" />
+          <i class="fa-duotone fa-question" data-name="sh3"></i>
+        </div>
+
+        <div class="img">
+          <img src="Images/shuffle-04.jpg" alt="sh4" data-name="sh4" />
+          <i class="fa-duotone fa-question" data-name="sh4"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-05.jpg" alt="sh5" data-name="sh5" />
+          <i class="fa-duotone fa-question" data-name="sh5"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-06.jpg" alt="sh6" data-name="sh6" />
+          <i class="fa-duotone fa-question" data-name="sh6"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-07.jpg" alt="sh7" data-name="sh7" />
+          <i class="fa-duotone fa-question" data-name="sh7"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-08.jpg" alt="sh8" data-name="sh8" />
+          <i class="fa-duotone fa-question" data-name="sh8"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-01.jpg" alt="sh1" data-name="sh1" />
+          <i class="fa-duotone fa-question" data-name="sh1"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-02.jpg" alt="sh2" data-name="sh2" />
+          <i class="fa-duotone fa-question" data-name="sh2"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-01.jpg" alt="sh1" data-name="sh1" />
+          <i class="fa-duotone fa-question" data-name="sh1"></i>
+        </div>
+
+        <div class="img">
+          <img src="Images/shuffle-02.jpg" alt="sh2" data-name="sh2" />
+          <i class="fa-duotone fa-question" data-name="sh2"></i>
+        </div>
+
+        <div class="img">
+          <img src="Images/shuffle-03.jpg" alt="sh3" data-name="sh3" />
+          <i class="fa-duotone fa-question" data-name="sh3"></i>
+        </div>
+
+        <div class="img">
+          <img src="Images/shuffle-04.jpg" alt="sh4" data-name="sh4" />
+          <i class="fa-duotone fa-question" data-name="sh4"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-05.jpg" alt="sh5" data-name="sh5" />
+          <i class="fa-duotone fa-question" data-name="sh5"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-06.jpg" alt="sh6" data-name="sh6" />
+          <i class="fa-duotone fa-question" data-name="sh6"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-07.jpg" alt="sh7" data-name="sh7" />
+          <i class="fa-duotone fa-question" data-name="sh7"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-08.jpg" alt="sh8" data-name="sh8" />
+          <i class="fa-duotone fa-question" data-name="sh8"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-01.jpg" alt="sh1" data-name="sh1" />
+          <i class="fa-duotone fa-question" data-name="sh1"></i>
+        </div>
+        <div class="img">
+          <img src="Images/shuffle-02.jpg" alt="sh2" data-name="sh2" />
+          <i class="fa-duotone fa-question" data-name="sh2"></i>
+        </div>
+      </div>
+      <button>New Game</button>
+    </div>
+    <audio
+      src="Audio/short-success-sound-glockenspiel-treasure-video-game-6346.mp3"
+      class="success"
+    ></audio>
+    <audio src="Audio/invalid-selection-39351.mp3" class="fail"></audio>
+    <script src="js.js"></script>
+  </body>
+</html>
